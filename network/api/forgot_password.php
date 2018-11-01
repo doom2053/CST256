@@ -43,12 +43,12 @@
         //$mail->SMTPDebug = 1; //Use for getting debuginformation
         $mail->IsSMTP();
         $mail->SMTPAuth   = true;                  // enable SMTP authentication
-        $mail->SMTPSecure = "tls";                 // sets the prefix to the servier
+        $mail->SMTPSecure = "tls";                 // sets the prefix to the server
         $mail->Host       = "smtp.gmail.com";      // sets GMAIL as the SMTP server
         $mail->Port       = 587;                   // set the SMTP port for the GMAIL server
-        $mail->Username   = "skillpoolswe@gmail.com";  // GMAIL username
+        $mail->Username   = "cst256Blueteam@gmail.com";  // GMAIL username
         $mail->Password   = "rootroot";            // GMAIL password
-        $mail->SetFrom('noreply@skillpool.se', 'mail-bot');
+        $mail->SetFrom('noreply@cst256Blueteam.se', 'mail-bot');
         $mail->Subject    = "Signup | Verification";
         $mail->MsgHTML($body);
         $address = $email;//"whoto@otherdomain.com";

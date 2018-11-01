@@ -142,9 +142,9 @@
   $mail->SMTPSecure = "tls";                 // sets the prefix to the servier
   $mail->Host       = "smtp.gmail.com";      // sets GMAIL as the SMTP server
   $mail->Port       = 587;                   // set the SMTP port for the GMAIL server
-  $mail->Username   = "skillpoolswe@gmail.com";  // GMAIL username
+  $mail->Username   = "cst256Blueteam@gmail.com";  // GMAIL username
   $mail->Password   = "rootroot";            // GMAIL password
-  $mail->SetFrom('noreply@skillpool.se', 'mail-bot');
+  $mail->SetFrom('noreply@cst256Blueteam.se', 'mail-bot');
   $mail->Subject    = "Signup | Verification";
   $mail->MsgHTML($body);
   $address = $email;//"whoto@otherdomain.com";
